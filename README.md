@@ -1,38 +1,64 @@
-# Mohamed Mahroos — Cinematic Portfolio
+# 👋 Hi, I'm Mohamed Mahroos
 
-## Run locally (Windows PowerShell)
-1. Extract this ZIP and open the folder in VS Code.
-2. Open Terminal → New Terminal.
-3. Run `npm.cmd install`.
-4. Run `npm.cmd run dev` and open the Local URL shown by Vite.
+### Software Developer | Tech Enthusiast | B.Tech Information Technology
 
-## Deploy to GitHub Pages
-This project is configured for the GitHub repository `mahroos-portfolio`.
+Curious by nature. Developer by choice.
 
-1. Create a **public** GitHub repository named `mahroos-portfolio` under your GitHub account.
-2. In this project folder, run `npm.cmd install`.
-3. Run `npm.cmd install --save-dev gh-pages` (the dependency is already listed; this makes sure it is installed).
-4. Run `git init` if this folder is not already a Git repository.
-5. Run `git add .`
-6. Run `git commit -m "My portfolio website"`
-7. Run `git branch -M main`
-8. Run `git remote add origin https://github.com/mahroos529-sys/mahroos-portfolio.git` (only if no `origin` remote exists yet).
-9. Run `git push -u origin main`.
-10. Run `npm.cmd run deploy`.
-11. On GitHub, open the repository → Settings → Pages. Set **Deploy from a branch**, choose branch **gh-pages** and folder **/(root)**, then Save.
-12. Your site will be at `https://mahroos529-sys.github.io/mahroos-portfolio/`.
+I'm an Information Technology student at **SRM Valliammai Engineering College**, interested in software development, web designing, and building practical digital experiences.
 
-If Git reports that `origin` already exists, do not add it again; check it with `git remote -v`.
+🌐 **[Visit My Live Portfolio](https://mahroos529-sys.github.io/MAHROOS-PORTFOLIO/)**
 
-## Included
-- Full-screen cinematic hero video (`public/hero-video.mp4`)
-- Responsive portfolio sections and animations
-- Resume and certificate images
-- Portrait images
-- GitHub Pages base-path configuration
+---
 
-## Background music
-The uploaded ZIP did **not** contain `public/song.mp3`, although the website code expects it. To include music on the live site, copy your original MP3 into the project's `public` folder and name it exactly `song.mp3` before deploying. Do not use the earlier 0 KB empty file.
+## 🚀 About Me
 
-## Update your resume
-Replace `public/Mohamed-Mahroos-Resume.pdf` with your new PDF, keeping exactly the same filename.
+- 🎓 B.Tech Information Technology — SRM Valliammai
+- 💻 Interested in Full Stack Development
+- 🎨 Exploring UI/UX and Web Designing
+- 📊 Learning Data Science
+- 🌱 Passionate about learning through projects and practical experience
+
+## 🛠️ Skills & Technologies
+
+- **Frontend:** HTML, CSS, JavaScript, React
+- **Tools:** Git, GitHub, VS Code
+- **Areas of Interest:** Web Development, UI/UX Design, Full Stack Development, Data Science
+
+## ✨ Featured Project
+
+### Green Natural Website
+
+A multi-page product website experience featuring Joocy Basil drinks, designed with a focus on visual presentation and interactive product browsing.
+
+🔗 [View Live Project](https://mahroos529-sys.github.io/green-natural-website/)
+
+## 🌟 My Portfolio Features
+
+- Cinematic video-based hero section
+- Interactive portrait animation
+- Responsive navigation
+- Background music with playback controls
+- About Me and Skills sections
+- Education and learning journey
+- Featured project showcase
+- Resume download
+- Certificate viewing
+- Contact and social media links
+
+## 🎓 Certifications
+
+- Full Stack Development Training
+- Digital Marketing Training
+
+## 🔗 Connect With Me
+
+- 🌐 [Portfolio](https://mahroos529-sys.github.io/MAHROOS-PORTFOLIO/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/mohamed-mahroos)
+- 🐙 [GitHub](https://github.com/mahroos529-sys)
+- 📧 Email: mahroos529@gmail.com
+
+---
+
+⭐ Thanks for visiting my profile!
+
+**Build. Innovate. Grow.**
