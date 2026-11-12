@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Mohamed Mahroos
 
-### Software Developer | Tech Enthusiast | B.Tech Information Technology
+### software Developer | Tech Enthusiast | B.Tech Information Technology
 
 Curious by nature. Developer by choice.
 
