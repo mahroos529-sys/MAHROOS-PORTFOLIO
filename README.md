@@ -1,38 +1,136 @@
-# Mohamed Mahroos — Cinematic Portfolio
+# Mohamed Mahroos — Developer Portfolio
 
-## Run locally (Windows PowerShell)
-1. Extract this ZIP and open the folder in VS Code.
-2. Open Terminal → New Terminal.
-3. Run `npm.cmd install`.
-4. Run `npm.cmd run dev` and open the Local URL shown by Vite.
+My personal portfolio showcasing my projects, technical skills, training and education.
 
-## Deploy to GitHub Pages
-This project is configured for the GitHub repository `mahroos-portfolio`.
+I’m Mohamed Mahroos, a B.Tech Information Technology student at SRM Valliammai Engineering College, interested in software development, web development and web designing.
 
-1. Create a **public** GitHub repository named `mahroos-portfolio` under your GitHub account.
-2. In this project folder, run `npm.cmd install`.
-3. Run `npm.cmd install --save-dev gh-pages` (the dependency is already listed; this makes sure it is installed).
-4. Run `git init` if this folder is not already a Git repository.
-5. Run `git add .`
-6. Run `git commit -m "My portfolio website"`
-7. Run `git branch -M main`
-8. Run `git remote add origin https://github.com/mahroos529-sys/mahroos-portfolio.git` (only if no `origin` remote exists yet).
-9. Run `git push -u origin main`.
-10. Run `npm.cmd run deploy`.
-11. On GitHub, open the repository → Settings → Pages. Set **Deploy from a branch**, choose branch **gh-pages** and folder **/(root)**, then Save.
-12. Your site will be at `https://mahroos529-sys.github.io/mahroos-portfolio/`.
+🌐 **[View Live Portfolio](https://mahroos529-sys.github.io/MAHROOS-PORTFOLIO/)**
 
-If Git reports that `origin` already exists, do not add it again; check it with `git remote -v`.
+## About the Portfolio
 
-## Included
-- Full-screen cinematic hero video (`public/hero-video.mp4`)
-- Responsive portfolio sections and animations
-- Resume and certificate images
-- Portrait images
-- GitHub Pages base-path configuration
+A responsive React portfolio with a cinematic visual style, project showcase, downloadable resume and links to my professional profiles.
 
-## Background music
-The uploaded ZIP did **not** contain `public/song.mp3`, although the website code expects it. To include music on the live site, copy your original MP3 into the project's `public` folder and name it exactly `song.mp3` before deploying. Do not use the earlier 0 KB empty file.
+## Features
 
-## Update your resume
-Replace `public/Mohamed-Mahroos-Resume.pdf` with your new PDF, keeping exactly the same filename.
+- Responsive desktop and mobile layouts
+- Cinematic video background
+- Interactive portrait presentation
+- Mobile navigation
+- Skills and interests section
+- Education and training timeline
+- Certificate viewing links
+- Featured project with a live demo
+- Downloadable PDF resume
+- Background music toggle
+- Email and social profile links
+
+## Technology
+
+- React
+- Vite
+- JavaScript
+- CSS
+- Lucide React
+- GitHub Pages
+
+## Featured Project
+
+### GREEN NATURAL — Beverage Storefront
+
+A responsive beverage storefront for a business in Paramakudi, Tamil Nadu.
+
+Customers can browse 10 drink options across Basil Seeds and Coco Jelly collections, filter products, manage a shopping bag and send orders through WhatsApp.
+
+**Built with:** HTML, CSS and JavaScript.
+
+- [Live Website](https://mahroos529-sys.github.io/green-natural-website/)
+- [Source Code](https://github.com/mahroos529-sys/green-natural-website)
+
+## Portfolio Sections
+
+| Section | Content |
+| --- | --- |
+| Home | Introduction and resume download |
+| About | Background and development interests |
+| Skills | Technologies and areas of learning |
+| Journey | Education, training and certificates |
+| Projects | Featured work and live project link |
+| Contact | Email and professional profiles |
+
+## Run Locally
+
+### Requirements
+
+- Node.js and npm
+- Git
+
+### Setup
+
+```bash
+git clone https://github.com/mahroos529-sys/MAHROOS-PORTFOLIO.git
+cd MAHROOS-PORTFOLIO
+npm install
+npm run dev
+```
+
+Open the local URL displayed by Vite.
+
+On Windows PowerShell, use `npm.cmd` instead of `npm` if script execution is blocked.
+
+## Build and Deploy
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+Deploy to the existing GitHub Pages site:
+
+```bash
+npm run deploy
+```
+
+The Vite base path must match the repository name:
+
+```text
+/MAHROOS-PORTFOLIO/
+```
+
+## Project Structure
+
+```text
+MAHROOS-PORTFOLIO/
+├── index.html
+├── package.json
+├── vite.config.js
+├── src/
+│   ├── main.jsx
+│   └── style.css
+└── public/
+    ├── hero-video.mp4
+    ├── song.mp3
+    ├── Mohamed-Mahroos-Resume.pdf
+    └── Portrait and certificate images
+```
+
+## Updating Content
+
+- **Portfolio content and links:** edit `src/main.jsx`.
+- **Styles and responsive layout:** edit `src/style.css`.
+- **Resume:** replace `public/Mohamed-Mahroos-Resume.pdf`, keeping the filename.
+- **Background music:** replace `public/song.mp3`.
+- **Video background:** replace `public/hero-video.mp4`.
+
+Browsers may require user interaction before playing audio. Visitors can use the music toggle to control playback.
+
+## Connect With Me
+
+- [GitHub](https://github.com/mahroos529-sys)
+- [LinkedIn](https://www.linkedin.com/in/mohamed-mahroos)
+- [Email](mailto:mahroos529@gmail.com)
+- [Portfolio](https://mahroos529-sys.github.io/MAHROOS-PORTFOLIO/)
+
+---
+
+“Code is my canvas, logic is my brush.”
